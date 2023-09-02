@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web</title>
-
-     <!-- Bootstrap -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <style>
+        body{
+            background-image: url(https://wallpaperaccess.com/full/1270167.gif);
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <form action="">
-            <h1>Login</h1>
-            <label for="username">Username</label>  <br>
-            <input type="text" name="username" id="username">   <br><br>
-            <label for="pwd">Password</label>   <br>
-            <input type="text" name="password" id="pwd">   <br>
-            <a href="reg.html">Register</a> <br><br>
-            <button type="button" class="btn btn-primary">submit</button>
-        </form>
-
+        <div class="row" style="width: 1280px;">
+            <div class="col">
+                <div class="card">
+                    <div class="login-form">
+                        <form action="">
+                            <h1>Login</h1>
+                            <div class="form-group">
+                                <label for="username" class="font-left">Username</label>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd" class="font-left">Password</label>
+                                <input type="text" name="password" id="pwd" class="form-control">
+                            </div>
+                            <a href="reg.html" class="font-left">Register</a> <br>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

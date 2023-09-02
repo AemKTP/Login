@@ -1,0 +1,17 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-form{
+    text-align: center;
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.font-left{
+    float: left;
+}
