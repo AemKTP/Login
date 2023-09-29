@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        echo "Hello";
+        echo "Hello <h1>";
     
     ?>
 </body>
